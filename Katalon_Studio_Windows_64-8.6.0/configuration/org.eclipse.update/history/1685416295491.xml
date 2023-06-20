@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config date="1678436645030" transient="false">
+	<site updateable="true" url="platform:/base/" enabled="true" policy="USER-EXCLUDE">
+		<feature id="com.kms.katalon.feature" version="1.0.0.202303100818" url="features/com.kms.katalon.feature_1.0.0.202303100818/">
+		</feature>
+		<feature id="org.eclipse.e4.rcp" version="4.16.0.v20200604-0951" url="features/org.eclipse.e4.rcp_4.16.0.v20200604-0951/">
+		</feature>
+		<feature id="org.eclipse.emf.ecore" version="2.22.0.v20200519-1135" url="features/org.eclipse.emf.ecore_2.22.0.v20200519-1135/">
+		</feature>
+		<feature id="org.eclipse.emf.common" version="2.19.0.v20200324-0932" url="features/org.eclipse.emf.common_2.19.0.v20200324-0932/">
+		</feature>
+	</site>
+</config>

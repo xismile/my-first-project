@@ -1,0 +1,3 @@
+eclipse.preferences.version=1
+generateCommand.retry.forFailedExecutions=false
+generateCommand.runConfigurationDescription={\n  "groupName"\: "Web Desktop",\n  "runConfigurationId"\: "Chrome",\n  "runConfigurationData"\: {},\n  "profileName"\: "default",\n  "requireConfigurationData"\: false\n}

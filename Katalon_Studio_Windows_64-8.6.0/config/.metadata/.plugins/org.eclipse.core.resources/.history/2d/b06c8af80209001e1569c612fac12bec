@@ -1,0 +1,15 @@
+
+		
+		for (int i=1; i<=9; i++) {
+			
+			if(n%2==0) {
+				println("Số Chẵn");
+			}
+			
+			else {
+				
+				println("Số Lẻ");
+			}			
+			
+		}
+					

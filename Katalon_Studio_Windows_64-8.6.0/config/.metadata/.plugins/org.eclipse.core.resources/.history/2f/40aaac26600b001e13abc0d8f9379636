@@ -1,0 +1,20 @@
+//8. Cho test data: [Java, C#, C++, PyThon, Golang, Swift, Scartch] -> viết code: Nhập vào vị trí(Index) và trả về giá trị trong test data. 
+//Nếu không tìm thấy thì thông báo "Không tìm thấy".
+
+String[] test_Data=['Java', 'C#', 'C++', 'PyThon', 'Golang', 'Swift', 'Scartch']
+
+//Nhập giá trị cần tìm từ bàn phím
+
+Scanner scanner =  new Scanner(System.in)
+println("Nhập vào vị trí (index) cần tìm kiếm")
+
+int index = scanner.nextInt()
+
+// Tìm giá trị tại vị trí nhập vào và hiện thị kết quả
+if(index >=0 && index < test_Data.length) {
+	
+	String value = test_Data[index]
+	println("Giá trị tại vị trí" + index +"là:" + value)
+} else {
+	println("Không tìm thấy giá trị tại vị trí" + index)
+}

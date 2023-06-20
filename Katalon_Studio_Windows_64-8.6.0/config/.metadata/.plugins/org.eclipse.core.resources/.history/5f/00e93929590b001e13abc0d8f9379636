@@ -1,0 +1,2 @@
+//8. Cho test data: [Java, C#, C++, PyThon, Golang, Swift, Scartch] -> viết code: Nhập vào vị trí(Index) và trả về giá trị trong test data. 
+//Nếu không tìm thấy thì thông báo "Không tìm thấy".

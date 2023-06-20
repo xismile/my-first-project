@@ -1,0 +1,3020 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="com.kms.katalon.feature"
+      label="Feature"
+      version="1.0.0.202303100818"
+      provider-name="KMS">
+
+   <description url="http://www.example.com/description">
+      [Enter Feature Description here.]
+   </description>
+
+   <copyright url="http://www.example.com/copyright">
+      [Enter Copyright Description here.]
+   </copyright>
+
+   <license url="http://www.example.com/license">
+      [Enter License Description here.]
+   </license>
+
+   <requires>
+      <import plugin="org.eclipse.emf.ecore" version="2.12.0" match="compatible"/>
+      <import plugin="org.eclipse.osgi" version="3.10.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.equinox.common" version="3.2.0" match="compatible"/>
+      <import plugin="org.eclipse.core.databinding.observable" version="1.3.0" match="compatible"/>
+      <import plugin="org.eclipse.core.runtime" version="3.3.0" match="compatible"/>
+      <import plugin="org.w3c.css.sac" version="1.3.0" match="greaterOrEqual"/>
+      <import plugin="org.apache.batik.css" version="1.7.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.equinox.common" version="3.5.0" match="compatible"/>
+      <import plugin="org.eclipse.core.runtime" version="3.6.0" match="compatible"/>
+      <import plugin="org.eclipse.equinox.registry" version="3.3.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.e4.core.di" version="1.5.1" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.jface" version="3.2.0" match="compatible"/>
+      <import plugin="org.eclipse.core.databinding.property" version="1.3.0" match="compatible"/>
+      <import plugin="org.eclipse.core.databinding" version="1.2.0" match="compatible"/>
+      <import plugin="org.eclipse.osgi" version="3.7.0" match="compatible"/>
+      <import plugin="org.eclipse.equinox.common" version="3.8.0" match="compatible"/>
+      <import plugin="org.eclipse.core.jobs" version="3.2.0" match="compatible"/>
+      <import plugin="org.eclipse.equinox.registry" version="3.4.0" match="compatible"/>
+      <import plugin="org.eclipse.equinox.preferences" version="3.4.0" match="compatible"/>
+      <import plugin="org.eclipse.core.contenttype" version="3.3.0" match="compatible"/>
+      <import plugin="org.eclipse.equinox.app" version="1.0.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.e4.core.di.annotations" version="1.4.0" match="compatible"/>
+      <import plugin="org.eclipse.swt" version="3.111.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.e4.ui.css.swt" version="0.9.1" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.e4.ui.css.core" version="0.9.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.equinox.common" version="3.6.0" match="compatible"/>
+      <import plugin="org.eclipse.equinox.registry" version="3.5.0" match="compatible"/>
+      <import plugin="org.eclipse.equinox.preferences" version="3.3.0" match="compatible"/>
+      <import plugin="org.eclipse.core.runtime" version="3.8.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.e4.core.di" version="0.9.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.e4.core.di.extensions" version="0.13.200" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.osgi.services" version="3.2.100" match="compatible"/>
+      <import plugin="org.apache.felix.gogo.runtime" version="0.10.0" match="greaterOrEqual"/>
+      <import plugin="org.apache.felix.gogo.shell" version="0.10.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.equinox.p2.core" version="2.0.0" match="compatible"/>
+      <import plugin="org.eclipse.equinox.common" version="3.4.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.equinox.preferences" version="3.3.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.core.jobs" version="3.5.0" match="greaterOrEqual"/>
+      <import plugin="org.tukaani.xz" version="1.3.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.core.jobs" version="3.4.0" match="compatible"/>
+      <import plugin="org.eclipse.core.variables" version="3.1.0" match="compatible"/>
+      <import plugin="org.eclipse.core.runtime" version="3.2.0" match="compatible"/>
+      <import plugin="org.eclipse.equinox.security" version="1.0.0" match="compatible"/>
+      <import plugin="org.eclipse.equinox.preferences" version="3.2.200" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.osgi" version="3.4.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.equinox.registry" version="3.4.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.core.expressions" version="3.2.0" match="compatible"/>
+      <import plugin="org.eclipse.core.filesystem" version="1.3.0" match="compatible"/>
+      <import plugin="org.eclipse.core.runtime" version="3.12.0" match="compatible"/>
+      <import plugin="org.eclipse.core.databinding.observable" version="1.2.0" match="compatible"/>
+      <import plugin="com.kms.katalon.constant" version="1.0.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.e4.ui.workbench" version="0.9.1" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.e4.ui.model.workbench" version="2.1.400" match="greaterOrEqual"/>
+      <import plugin="com.kms.katalon.composer.components" version="1.0.0" match="greaterOrEqual"/>
+      <import plugin="com.kms.katalon.execution" version="1.0.0" match="greaterOrEqual"/>
+      <import plugin="com.kms.katalon.entity" version="1.0.0" match="greaterOrEqual"/>
+      <import plugin="com.kms.katalon.controller" version="1.0.0" match="greaterOrEqual"/>
+      <import plugin="com.kms.katalon.composer.components.impl" version="1.0.0" match="greaterOrEqual"/>
+      <import plugin="com.kms.katalon.preferences" version="1.0.0" match="greaterOrEqual"/>
+      <import plugin="com.kms.katalon.core" version="1.0.0" match="greaterOrEqual"/>
+      <import plugin="com.kms.katalon.composer.project"/>
+      <import plugin="com.kms.katalon.core.webservice"/>
+      <import plugin="com.kms.katalon.core.webui"/>
+      <import plugin="org.eclipse.emf.common" version="2.12.0" match="compatible"/>
+      <import plugin="org.w3c.dom.smil" version="1.0.0" match="equivalent"/>
+      <import plugin="org.eclipse.equinox.common" version="3.7.0" match="compatible"/>
+      <import plugin="org.eclipse.core.commands" version="3.4.0" match="compatible"/>
+      <import plugin="org.eclipse.equinox.common" version="3.3.0" match="compatible"/>
+      <import plugin="org.eclipse.equinox.registry" version="3.2.0" match="compatible"/>
+      <import plugin="org.eclipse.osgi" version="3.2.0" match="compatible"/>
+      <import plugin="org.eclipse.equinox.preferences" version="3.2.0" match="compatible"/>
+      <import plugin="org.eclipse.core.expressions" version="3.4.200" match="compatible"/>
+      <import plugin="org.eclipse.core.commands" version="3.5.0" match="compatible"/>
+      <import plugin="org.eclipse.e4.core.contexts" version="1.0.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.e4.core.di" version="1.1.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.e4.core.services" version="0.9.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.osgi" version="3.6.0" match="compatible"/>
+      <import plugin="org.eclipse.e4.core.contexts" version="0.9.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.e4.ui.di" version="0.9.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.equinox.common" version="3.6.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.equinox.registry" version="3.5.0" match="greaterOrEqual"/>
+      <import plugin="org.apache.batik.util" version="1.7.0" match="greaterOrEqual"/>
+      <import plugin="com.kms.katalon.custom" version="1.0.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.jdt.core"/>
+      <import plugin="org.eclipse.core.runtime" version="3.5.0" match="compatible"/>
+      <import plugin="org.eclipse.text" version="3.5.0" match="compatible"/>
+      <import plugin="org.eclipse.jface" version="3.5.0" match="compatible"/>
+      <import plugin="org.apache.commons.lang" version="2.6.0" match="greaterOrEqual"/>
+      <import plugin="net.lingala.zip4j" version="1.2.5" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.persistence.eclipselink" version="2.5.0" match="greaterOrEqual"/>
+      <import plugin="com.kms.katalon.composer.explorer" version="1.0.0" match="greaterOrEqual"/>
+      <import plugin="com.kms.katalon" version="1.0.0" match="greaterOrEqual"/>
+      <import plugin="com.kms.katalon.groovy" version="1.0.0" match="greaterOrEqual"/>
+      <import plugin="com.kms.katalon.composer.folder"/>
+      <import plugin="com.kms.katalon.selenium-standalone" version="1.0.0" match="greaterOrEqual"/>
+      <import plugin="com.kms.katalon.core.mobile"/>
+      <import plugin="com.kms.katalon.dal" version="1.0.0" match="greaterOrEqual"/>
+      <import plugin="org.apache.commons.io" version="2.4.0" match="greaterOrEqual"/>
+      <import plugin="org.apache.commons.codec" version="1.7.0" match="greaterOrEqual"/>
+      <import plugin="com.kms.katalon.execution.webui"/>
+      <import plugin="com.kms.katalon.composer.testdata" version="1.0.0" match="greaterOrEqual"/>
+      <import plugin="com.kms.katalon.composer.webui.objectspy"/>
+      <import plugin="com.kms.katalon.composer.testcase" version="1.0.0" match="greaterOrEqual"/>
+      <import plugin="org.dom4j" version="1.6.1" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.jface" version="3.10.100" match="compatible"/>
+      <import plugin="org.eclipse.ui.workbench" version="3.105.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.core.expressions" version="3.4.0" match="compatible"/>
+      <import plugin="org.eclipse.core.runtime" version="3.7.0" match="compatible"/>
+      <import plugin="org.eclipse.ui.ide" version="3.5.0" match="compatible"/>
+      <import plugin="org.eclipse.ui" version="3.5.0" match="compatible"/>
+      <import plugin="org.eclipse.jface.text" version="3.8.0" match="compatible"/>
+      <import plugin="org.eclipse.ui.workbench.texteditor" version="3.10.0" match="compatible"/>
+      <import plugin="org.eclipse.core.filebuffers" version="3.5.0" match="compatible"/>
+      <import plugin="org.eclipse.core.resources" version="3.5.0" match="compatible"/>
+      <import plugin="org.eclipse.core.filesystem" version="1.2.0" match="compatible"/>
+      <import plugin="org.eclipse.core.filesystem" version="1.0.0" match="compatible"/>
+      <import plugin="org.eclipse.help" version="3.2.0" match="compatible"/>
+      <import plugin="org.eclipse.ui" version="3.106.0" match="compatible"/>
+      <import plugin="org.eclipse.ui.workbench" version="3.7.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.jface.text" version="3.2.0" match="compatible"/>
+      <import plugin="org.eclipse.equinox.p2.engine" version="2.0.0" match="compatible"/>
+      <import plugin="org.eclipse.equinox.p2.metadata" version="2.0.0" match="compatible"/>
+      <import plugin="org.eclipse.equinox.bidi" version="0.10.0"/>
+      <import plugin="org.eclipse.e4.core.services" version="2.0.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.e4.core.contexts" version="1.3.100" match="compatible"/>
+      <import plugin="org.eclipse.e4.ui.workbench" version="1.3.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.e4.core.commands" version="0.11.0" match="compatible"/>
+      <import plugin="org.eclipse.e4.core.di" version="1.6.0" match="compatible"/>
+      <import plugin="org.eclipse.e4.core.di.extensions" version="0.14.0" match="compatible"/>
+      <import plugin="org.eclipse.osgi.services" version="3.5.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.ui.ide" version="3.6.0" match="compatible"/>
+      <import plugin="org.eclipse.core.resources" version="3.2.0" match="compatible"/>
+      <import plugin="org.eclipse.ui" version="3.6.0" match="compatible"/>
+      <import plugin="org.eclipse.ui.navigator.resources" version="3.4.0" match="compatible"/>
+      <import plugin="org.eclipse.core.net" version="1.0.0" match="compatible"/>
+      <import plugin="org.eclipse.core.filesystem" version="1.3.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.core.runtime" version="3.11.0" match="compatible"/>
+      <import plugin="org.eclipse.jface" version="3.9.0" match="compatible"/>
+      <import plugin="org.eclipse.jface.databinding" version="1.3.0" match="compatible"/>
+      <import plugin="org.eclipse.core.databinding.property" version="1.2.0" match="compatible"/>
+      <import plugin="org.eclipse.e4.core.services" version="1.0.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.e4.ui.workbench.swt" version="0.9.1" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.e4.ui.css.swt.theme" version="0.9.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.e4.ui.bindings" version="0.9.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.e4.ui.workbench3" version="0.12.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.e4.ui.workbench.addons.swt" version="0.10.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.emf.ecore" version="2.7.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.emf.ecore.xmi" version="2.11.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.e4.core.di.extensions" version="0.13.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.compare.core" version="3.5.0" match="compatible"/>
+      <import plugin="org.eclipse.core.expressions" version="3.4.100" match="compatible"/>
+      <import plugin="org.eclipse.core.resources" version="3.3.0" match="compatible"/>
+      <import plugin="org.eclipse.text" version="3.1.0" match="compatible"/>
+      <import plugin="org.eclipse.debug.core" version="3.9.0" match="compatible"/>
+      <import plugin="org.eclipse.jdt.debug" version="3.7.100" match="compatible"/>
+      <import plugin="org.eclipse.core.variables" version="3.2.0" match="compatible"/>
+      <import plugin="org.eclipse.osgi" version="3.8.0" match="compatible"/>
+      <import plugin="org.eclipse.core.resources" version="3.9.0" match="compatible"/>
+      <import plugin="org.eclipse.core.variables" version="3.2.800" match="compatible"/>
+      <import plugin="org.codehaus.groovy" version="1.8.9" match="greaterOrEqual"/>
+      <import plugin="org.codehaus.groovy.eclipse.core" version="2.9.2" match="greaterOrEqual"/>
+      <import plugin="org.codehaus.groovy.eclipse.ui" version="2.9.2" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.jdt.groovy.core" version="2.9.2" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.jdt.launching" version="3.5.0" match="greaterOrEqual"/>
+      <import plugin="org.codehaus.groovy.eclipse.compilerResolver" version="2.9.2" match="greaterOrEqual"/>
+      <import plugin="org.codehaus.groovy.eclipse.codebrowsing" version="2.9.2" match="greaterOrEqual"/>
+      <import plugin="org.codehaus.groovy.eclipse.dsl" version="2.9.2" match="greaterOrEqual"/>
+      <import plugin="org.codehaus.groovy.eclipse.refactoring" version="2.9.2" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.ltk.core.refactoring" version="3.5.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.ltk.ui.refactoring" version="3.4.100" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.ui.editors" version="3.5.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.ui.workbench.texteditor" version="3.5.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.help" version="3.4.0" match="compatible"/>
+      <import plugin="org.eclipse.core.variables" version="3.2.200" match="compatible"/>
+      <import plugin="org.eclipse.search" version="3.10.0" match="compatible"/>
+      <import plugin="org.eclipse.debug.core" version="3.10.0" match="compatible"/>
+      <import plugin="org.eclipse.debug.ui" version="3.11.0" match="compatible"/>
+      <import plugin="org.eclipse.jdt.launching" version="3.8.0" match="compatible"/>
+      <import plugin="org.eclipse.compare" version="3.5.0" match="compatible"/>
+      <import plugin="org.eclipse.team.ui" version="3.4.100" match="compatible"/>
+      <import plugin="org.eclipse.team.core" version="3.4.100" match="compatible"/>
+      <import plugin="org.eclipse.jface" version="3.11.0" match="compatible"/>
+      <import plugin="org.eclipse.ui.console" version="3.4.0" match="compatible"/>
+      <import plugin="org.eclipse.ui.views" version="3.3.100" match="compatible"/>
+      <import plugin="org.eclipse.ui.editors" version="3.5.0" match="compatible"/>
+      <import plugin="org.eclipse.ltk.core.refactoring" version="3.7.0" match="compatible"/>
+      <import plugin="org.eclipse.ltk.ui.refactoring" version="3.8.0" match="compatible"/>
+      <import plugin="org.eclipse.ui.forms" version="3.4.0" match="compatible"/>
+      <import plugin="org.eclipse.ui.navigator" version="3.3.200" match="compatible"/>
+      <import plugin="org.eclipse.jdt.core.manipulation" version="1.7.0" match="compatible"/>
+      <import plugin="com.ibm.icu" version="4.4.2" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.ui.workbench.texteditor" version="3.5.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.jface.text" version="3.5.0" match="compatible"/>
+      <import plugin="org.eclipse.ltk.core.refactoring" version="3.5.0" match="compatible"/>
+      <import plugin="org.eclipse.ltk.ui.refactoring" version="3.5.0" match="compatible"/>
+      <import plugin="org.eclipse.jface" version="3.6.0" match="compatible"/>
+      <import plugin="org.eclipse.e4.ui.css.core" version="0.10.100" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.e4.ui.css.swt" version="0.11.100" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.core.resources" version="3.4.0" match="compatible"/>
+      <import plugin="org.eclipse.ui.ide" version="3.3.0" match="compatible"/>
+      <import plugin="org.eclipse.ui.views" version="3.2.0" match="compatible"/>
+      <import plugin="org.eclipse.ui.forms" version="3.2.0" match="compatible"/>
+      <import plugin="org.eclipse.core.filesystem" version="1.1.0" match="compatible"/>
+      <import plugin="org.eclipse.compare.core" version="3.5.200" match="compatible"/>
+      <import plugin="org.eclipse.team.core" version="3.6.0" match="compatible"/>
+      <import plugin="org.eclipse.compare" version="3.3.0" match="compatible"/>
+      <import plugin="org.eclipse.ui.forms" version="3.3.0" match="compatible"/>
+      <import plugin="org.eclipse.ui.navigator" version="3.3.0" match="compatible"/>
+      <import plugin="org.eclipse.jface.text" version="3.3.0" match="compatible"/>
+      <import plugin="org.eclipse.ui.editors" version="3.3.0" match="compatible"/>
+      <import plugin="org.eclipse.ui.console" version="3.5.300" match="compatible"/>
+      <import plugin="org.eclipse.core.resources" version="3.6.0" match="compatible"/>
+      <import plugin="org.eclipse.ui.navigator" version="3.5.0" match="compatible"/>
+      <import plugin="org.eclipse.ui.views.properties.tabbed" version="3.5.0" match="compatible"/>
+      <import plugin="org.eclipse.ui.workbench.texteditor" version="3.6.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.ui" version="3.3.0" match="compatible"/>
+      <import plugin="org.eclipse.ltk.core.refactoring" version="3.6.0" match="compatible"/>
+      <import plugin="org.eclipse.debug.ui" version="3.10.0" match="compatible"/>
+      <import plugin="org.eclipse.jdt.debug" version="3.10.0" match="compatible"/>
+      <import plugin="org.eclipse.jdt.launching" version="3.7.0" match="compatible"/>
+      <import plugin="org.eclipse.jdt.ui" version="3.8.0" match="compatible"/>
+      <import plugin="org.eclipse.jdt.core.manipulation" version="1.3.0" match="compatible"/>
+      <import plugin="org.eclipse.search" version="3.5.0" match="compatible"/>
+      <import plugin="org.eclipse.debug.core" version="3.5.0" match="compatible"/>
+      <import plugin="org.eclipse.debug.ui" version="3.5.0" match="compatible"/>
+      <import plugin="org.eclipse.jdt.ui" version="3.12.0" match="compatible"/>
+      <import plugin="org.eclipse.jdt.launching" version="3.5.0" match="compatible"/>
+      <import plugin="org.eclipse.jdt.debug.ui" version="3.3.0" match="compatible"/>
+      <import plugin="org.eclipse.jdt.junit.runtime" version="3.4.100" match="compatible"/>
+      <import plugin="org.eclipse.jdt.junit.core" version="3.6.0" match="compatible"/>
+      <import plugin="org.eclipse.core.resources" version="3.8.100" match="compatible"/>
+      <import plugin="org.eclipse.equinox.simpleconfigurator.manipulator" version="2.0.0" match="compatible"/>
+      <import plugin="org.eclipse.equinox.frameworkadmin" version="2.0.0" match="compatible"/>
+      <import plugin="org.eclipse.equinox.common" version="3.5.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.e4.core.services" version="0.9.1" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.e4.ui.workbench.renderers.swt" version="0.9.1" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.e4.ui.widgets" version="0.11.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.jface" version="3.7.0" match="compatible"/>
+      <import plugin="org.eclipse.e4.ui.di" version="0.10.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.e4.ui.services" version="1.0.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.emf.ecore.xmi" version="2.7.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.equinox.app" version="1.3.0" match="compatible"/>
+      <import plugin="org.eclipse.e4.ui.workbench" version="0.10.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.e4.ui.services" version="0.1.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.e4.ui.css.swt" version="0.9.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.osgi.services" version="3.2.0" match="compatible"/>
+      <import plugin="org.eclipse.e4.ui.workbench3" version="0.11.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.core.jobs" version="3.5.0" match="compatible"/>
+      <import plugin="org.eclipse.e4.core.commands" version="0.9.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.e4.ui.workbench" version="0.9.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.e4.ui.services" version="0.9.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.e4.ui.workbench.swt" version="0.9.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.e4.ui.css.swt" version="0.11.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.e4.core.di.extensions" version="0.12.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.equinox.preferences" version="3.5.200" match="greaterOrEqual"/>
+      <import plugin="com.kms.katalon.composer.objectrepository" version="1.0.0" match="greaterOrEqual"/>
+      <import plugin="com.kms.katalon.composer.testsuite" version="1.0.0" match="greaterOrEqual"/>
+      <import plugin="com.kms.katalon.composer.preferences"/>
+      <import plugin="com.kms.katalon.execution.mobile"/>
+      <import plugin="com.kms.katalon.composer.execution"/>
+      <import plugin="javax.inject" version="1.0.0" match="greaterOrEqual"/>
+      <import plugin="javax.annotation" version="1.2.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.jetty.io" version="8.1.16" match="greaterOrEqual"/>
+      <import plugin="com.kms.katalon.composer.mobile"/>
+      <import plugin="com.kms.katalon.composer.report"/>
+      <import plugin="org.junit" version="4.12.0" match="compatible"/>
+      <import plugin="com.kms.katalon.dal.file"/>
+      <import plugin="org.apache.commons.lang" version="2.0.0" match="compatible"/>
+      <import plugin="org.apache.commons.logging" version="1.0.0" match="compatible"/>
+      <import plugin="org.eclipse.help" version="3.5.0" match="compatible"/>
+      <import plugin="org.eclipse.ui.forms" version="3.5.0" match="compatible"/>
+      <import plugin="org.eclipse.core.expressions" version="3.4.200" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.team.core" version="3.4.0" match="compatible"/>
+      <import plugin="org.eclipse.ui.cheatsheets" version="3.3.0" match="compatible"/>
+      <import plugin="org.eclipse.team.core" version="3.6.100" match="compatible"/>
+      <import plugin="org.eclipse.team.ui" version="3.6.200" match="compatible"/>
+      <import plugin="org.eclipse.jface.text" version="3.4.0" match="compatible"/>
+      <import plugin="org.eclipse.ui.ide" version="3.4.0" match="compatible"/>
+      <import plugin="org.eclipse.ui.workbench.texteditor" version="3.4.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.compare" version="3.4.0" match="compatible"/>
+      <import plugin="org.eclipse.ui.editors" version="3.4.0" match="compatible"/>
+      <import plugin="com.jcraft.jsch" version="0.1.37" match="equivalent"/>
+      <import plugin="com.jcraft.jsch" version="0.1.50" match="compatible"/>
+      <import plugin="com.kms.katalon.composer.webui"/>
+      <import plugin="org.apache.lucene.core"/>
+      <import plugin="com.kms.katalon.integration.analytics" version="1.0.0" match="greaterOrEqual"/>
+      <import plugin="com.kms.katalon.composer.mobile.objectspy"/>
+      <import plugin="com.google.guava" version="23.0.0" match="greaterOrEqual"/>
+      <import plugin="org.apache.commons.lang3" version="3.1.0" match="greaterOrEqual"/>
+      <import plugin="com.kms.katalon.logging" version="1.0.0" match="greaterOrEqual"/>
+   </requires>
+
+   <plugin
+         id="org.eclipse.emf.common"
+         download-size="366"
+         install-size="766"
+         version="2.19.0.v20200324-0932"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.batik.util"
+         download-size="144"
+         install-size="283"
+         version="1.11.0.v20190515-0436"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.ecore.change"
+         download-size="100"
+         install-size="218"
+         version="2.14.0.v20190528-0725"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.osgi.compatibility.state"
+         download-size="242"
+         install-size="595"
+         version="1.1.800.v20200511-1223"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="javax.annotation"
+         download-size="28"
+         install-size="58"
+         version="1.2.0.v201602091430"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.core.databinding.property"
+         download-size="161"
+         install-size="431"
+         version="1.8.0.v20200124-0715"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.core.variables"
+         download-size="35"
+         install-size="65"
+         version="3.4.800.v20200120-1101"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.e4.ui.css.core"
+         download-size="210"
+         install-size="430"
+         version="0.12.1200.v20200513-0930"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.equinox.p2.repository"
+         download-size="138"
+         install-size="280"
+         version="2.4.700.v20200110-2121"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.ecore.xmi"
+         download-size="229"
+         install-size="488"
+         version="2.16.0.v20190528-0725"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.e4.core.di.extensions"
+         download-size="11"
+         install-size="14"
+         version="0.16.0.v20200507-0938"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jface.databinding"
+         download-size="294"
+         install-size="679"
+         version="1.11.100.v20200522-1835"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.core.runtime"
+         download-size="72"
+         install-size="154"
+         version="3.18.0.v20200506-2143"
+         unpack="false"/>
+
+   <plugin
+         id="javax.servlet"
+         download-size="102"
+         install-size="202"
+         version="3.1.0.v201410161800"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.equinox.simpleconfigurator"
+         download-size="44"
+         install-size="83"
+         version="1.3.500.v20200211-1505"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.equinox.security"
+         download-size="110"
+         install-size="229"
+         version="1.3.500.v20200114-1637"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.osgi"
+         download-size="1446"
+         install-size="3099"
+         version="3.15.300.v20200520-1959"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.e4.core.di"
+         download-size="51"
+         install-size="106"
+         version="1.7.600.v20200428-0912"
+         unpack="false"/>
+
+   <plugin
+         id="org.w3c.dom.events"
+         download-size="15"
+         install-size="22"
+         version="3.0.0.draft20060413_v201105210656"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.equinox.concurrent"
+         download-size="25"
+         install-size="45"
+         version="1.1.500.v20200106-1437"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.equinox.event"
+         download-size="34"
+         install-size="61"
+         version="1.5.400.v20200511-1702"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.e4.ui.css.swt.theme"
+         download-size="27"
+         install-size="49"
+         version="0.12.700.v20200527-0719"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.e4.ui.widgets"
+         download-size="13"
+         install-size="21"
+         version="1.2.700.v20191222-1048"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.felix.gogo.command"
+         download-size="56"
+         install-size="115"
+         version="1.0.2.v20170914-1324"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.e4.ui.di"
+         download-size="16"
+         install-size="23"
+         version="1.2.800.v20200128-0855"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.felix.gogo.runtime"
+         download-size="203"
+         install-size="396"
+         version="1.1.0.v20180713-1646"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.e4.core.commands"
+         download-size="25"
+         install-size="45"
+         version="0.12.900.v20200110-1732"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.equinox.console"
+         download-size="122"
+         install-size="250"
+         version="1.4.100.v20200525-1407"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.equinox.p2.metadata"
+         download-size="352"
+         install-size="786"
+         version="2.5.0.v20200511-1530"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.e4.core.services"
+         download-size="69"
+         install-size="126"
+         version="2.2.300.v20200422-1846"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.equinox.p2.metadata.repository"
+         download-size="130"
+         install-size="286"
+         version="1.3.400.v20191211-1528"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.equinox.p2.engine"
+         download-size="205"
+         install-size="462"
+         version="2.6.700.v20200511-1530"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.ant.core"
+         download-size="106"
+         install-size="187"
+         version="3.5.700.v20191221-1203"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.equinox.app"
+         download-size="87"
+         install-size="176"
+         version="1.4.500.v20200422-1833"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.core.net"
+         download-size="69"
+         install-size="133"
+         version="1.3.900.v20200428-1255"
+         unpack="false"/>
+
+   <plugin
+         id="org.w3c.css.sac"
+         download-size="35"
+         install-size="61"
+         version="1.3.1.v200903091627"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.osgi.services"
+         download-size="125"
+         install-size="201"
+         version="3.8.0.v20190206-2147"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.core.resources"
+         download-size="873"
+         install-size="1904"
+         version="3.13.700.v20200209-1624"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.core.databinding.beans"
+         download-size="91"
+         install-size="262"
+         version="1.6.100.v20191217-1850"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.core.expressions"
+         download-size="91"
+         install-size="181"
+         version="3.6.800.v20200319-0911"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.equinox.p2.core"
+         download-size="74"
+         install-size="138"
+         version="2.6.300.v20200211-1504"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.swt"
+         download-size="16"
+         install-size="32"
+         version="3.114.100.v20200604-0951"
+         unpack="false"/>
+
+   <plugin
+         id="com.kms.katalon"
+         download-size="9877"
+         install-size="17842"
+         version="1.0.0.202303100818"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.e4.core.contexts"
+         download-size="47"
+         install-size="93"
+         version="1.8.400.v20191217-1710"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.core.jobs"
+         download-size="105"
+         install-size="209"
+         version="3.10.800.v20200421-0950"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.ecore"
+         download-size="1381"
+         install-size="3278"
+         version="2.22.0.v20200519-1135"
+         unpack="false"/>
+
+   <plugin
+         id="org.w3c.dom.svg"
+         download-size="95"
+         install-size="134"
+         version="1.1.0.v201011041433"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.e4.ui.css.swt"
+         download-size="199"
+         install-size="413"
+         version="0.13.1000.v20200525-0806"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.core.commands"
+         download-size="112"
+         install-size="213"
+         version="3.9.700.v20191217-1850"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.core.databinding.observable"
+         download-size="303"
+         install-size="718"
+         version="1.9.0.v20200205-2119"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.equinox.registry"
+         download-size="190"
+         install-size="400"
+         version="3.8.800.v20200406-0956"
+         unpack="false"/>
+
+   <plugin
+         id="org.w3c.dom.smil"
+         download-size="21"
+         install-size="40"
+         version="1.0.1.v200903091627"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jface"
+         download-size="1094"
+         install-size="2218"
+         version="3.20.0.v20200505-1952"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.core.filesystem"
+         download-size="65"
+         install-size="122"
+         version="1.7.700.v20200110-1734"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.core.contenttype"
+         download-size="98"
+         install-size="209"
+         version="3.7.700.v20200517-1644"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.help"
+         download-size="266"
+         install-size="687"
+         version="3.8.800.v20200525-0755"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.equinox.preferences"
+         download-size="133"
+         install-size="275"
+         version="3.8.0.v20200422-1833"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.e4.ui.bindings"
+         download-size="45"
+         install-size="92"
+         version="0.12.900.v20200513-0930"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.e4.ui.services"
+         download-size="24"
+         install-size="38"
+         version="1.3.700.v20190930-1643"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.core.databinding"
+         download-size="179"
+         install-size="419"
+         version="1.9.0.v20200519-1409"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.equinox.launcher"
+         download-size="51"
+         install-size="93"
+         version="1.5.700.v20200207-2156"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.felix.gogo.shell"
+         download-size="67"
+         install-size="135"
+         version="1.1.0.v20180713-1646"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.equinox.bidi"
+         download-size="50"
+         install-size="93"
+         version="1.2.300.v20191213-1901"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.batik.css"
+         download-size="351"
+         install-size="709"
+         version="1.11.0.v20190515-0436"
+         unpack="false"/>
+
+   <plugin
+         id="javax.inject"
+         download-size="14"
+         install-size="24"
+         version="1.0.0.v20091030"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.equinox.common"
+         download-size="126"
+         install-size="240"
+         version="3.12.0.v20200504-1602"
+         unpack="false"/>
+
+   <plugin
+         id="com.kms.katalon.composer.explorer"
+         download-size="135"
+         install-size="277"
+         version="1.0.0.202303100818"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.compare.core"
+         download-size="66"
+         install-size="127"
+         version="3.6.900.v20200412-2017"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jface.text"
+         download-size="1025"
+         install-size="2192"
+         version="3.16.300.v20200526-0811"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.text"
+         download-size="289"
+         install-size="583"
+         version="3.10.200.v20200428-0633"
+         unpack="false"/>
+
+   <plugin
+         id="com.kms.katalon.entity"
+         download-size="132"
+         install-size="245"
+         version="1.0.0.202303100818"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.commons.lang"
+         download-size="277"
+         install-size="587"
+         version="2.6.0"
+         unpack="false"/>
+
+   <plugin
+         id="com.kms.katalon.composer.testcase"
+         download-size="1200"
+         install-size="2738"
+         version="1.0.0.202303100818"
+         unpack="false"/>
+
+   <plugin
+         id="com.kms.katalon.dal"
+         download-size="17"
+         install-size="32"
+         version="1.0.0.202303100818"
+         unpack="false"/>
+
+   <plugin
+         id="com.kms.katalon.dal.file"
+         download-size="153"
+         install-size="357"
+         version="1.0.0.202303100818"
+         unpack="false"/>
+
+   <plugin
+         id="com.kms.katalon.controller"
+         download-size="101"
+         install-size="239"
+         version="1.0.0.202303100818"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.commons.io"
+         download-size="227"
+         install-size="450"
+         version="2.6.0.v20190123-2029"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.persistence.eclipselink"
+         download-size="8199"
+         install-size="20397"
+         version="2.5.0.RC1"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.commons.codec"
+         download-size="364"
+         install-size="692"
+         version="1.13.0.v20200108-0001"
+         unpack="false"/>
+
+   <plugin
+         id="com.kms.katalon.constant"
+         download-size="26"
+         install-size="60"
+         version="1.0.0.202303100818"
+         unpack="false"/>
+
+   <plugin
+         id="com.kms.katalon.preferences"
+         download-size="28"
+         install-size="60"
+         version="1.0.0.202303100818"
+         unpack="false"/>
+
+   <plugin
+         id="com.kms.katalon.composer.components"
+         download-size="747"
+         install-size="1715"
+         version="1.0.0.202303100818"
+         unpack="false"/>
+
+   <plugin
+         id="com.kms.katalon.composer.objectrepository"
+         download-size="203"
+         install-size="512"
+         version="1.0.0.202303100818"
+         unpack="false"/>
+
+   <plugin
+         id="net.sf.supercsv.super-csv"
+         download-size="89"
+         install-size="166"
+         version="2.1.0"
+         unpack="false"/>
+
+   <plugin
+         id="com.kms.katalon.poi"
+         download-size="11862"
+         install-size="14008"
+         version="1.0.0.202303100818"
+         unpack="false"/>
+
+   <plugin
+         id="org.dom4j"
+         download-size="322"
+         install-size="680"
+         version="1.6.1.v201312101416"
+         unpack="false"/>
+
+   <plugin
+         id="com.kms.katalon.composer.export"
+         download-size="6"
+         install-size="8"
+         version="1.0.0.202303100818"
+         unpack="false"/>
+
+   <plugin
+         id="com.kms.katalon.composer.import"
+         download-size="12"
+         install-size="19"
+         version="1.0.0.202303100818"
+         unpack="false"/>
+
+   <plugin
+         id="com.kms.katalon.composer.components.impl"
+         download-size="1748"
+         install-size="4712"
+         version="1.0.0.202303100818"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.ui"
+         download-size="467"
+         install-size="578"
+         version="3.117.0.v20200518-1705"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.ui.editors"
+         download-size="601"
+         install-size="1354"
+         version="3.13.200.v20200501-2307"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.ui.ide"
+         download-size="2425"
+         install-size="4834"
+         version="3.17.100.v20200530-0835"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.ui.ide.application"
+         download-size="110"
+         install-size="216"
+         version="1.3.700.v20200525-1456"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.ui.views"
+         download-size="105"
+         install-size="191"
+         version="3.10.300.v20200311-1018"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.ui.workbench"
+         download-size="3598"
+         install-size="7766"
+         version="3.119.0.v20200521-1247"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.ui.workbench.texteditor"
+         download-size="642"
+         install-size="1373"
+         version="3.14.200.v20200421-1954"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.core.filebuffers"
+         download-size="113"
+         install-size="247"
+         version="3.6.1000.v20200409-1035"
+         unpack="false"/>
+
+   <plugin
+         id="com.kms.katalon.groovy"
+         download-size="35"
+         install-size="78"
+         version="1.0.0.202303100818"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jdt.core"
+         download-size="7040"
+         install-size="16443"
+         version="3.22.0.v202009301404-e2006-RELEASE"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jdt.launching"
+         download-size="547"
+         install-size="1058"
+         version="3.17.100.v20200526-1503"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.debug.core"
+         download-size="380"
+         install-size="797"
+         version="3.15.100.v20200514-0816"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jdt.debug"
+         download-size="967"
+         install-size="1081"
+         version="3.15.100.v20200525-2012"/>
+
+   <plugin
+         id="org.codehaus.groovy"
+         download-size="20806"
+         install-size="22495"
+         version="2.4.20.v202009301404-e2006-RELEASE"/>
+
+   <plugin
+         id="org.codehaus.groovy.eclipse"
+         download-size="16"
+         install-size="18"
+         version="3.9.0.v202009301404-e2006-RELEASE"/>
+
+   <plugin
+         id="org.codehaus.groovy.eclipse.codebrowsing"
+         download-size="89"
+         install-size="209"
+         version="3.9.0.v202009301404-e2006-RELEASE"
+         unpack="false"/>
+
+   <plugin
+         id="org.codehaus.groovy.eclipse.core"
+         download-size="85"
+         install-size="170"
+         version="3.9.0.v202009301404-e2006-RELEASE"
+         unpack="false"/>
+
+   <plugin
+         id="org.codehaus.groovy.eclipse.quickfix"
+         download-size="113"
+         install-size="240"
+         version="3.9.0.v202009301404-e2006-RELEASE"
+         unpack="false"/>
+
+   <plugin
+         id="org.codehaus.groovy.eclipse.ui"
+         download-size="548"
+         install-size="1144"
+         version="3.9.0.v202009301404-e2006-RELEASE"
+         unpack="false"/>
+
+   <plugin
+         id="org.codehaus.groovy.eclipse.refactoring"
+         download-size="276"
+         install-size="612"
+         version="3.9.0.v202009301404-e2006-RELEASE"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jdt.groovy.core"
+         download-size="473"
+         install-size="1039"
+         version="3.9.0.v202009301404-e2006-RELEASE"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.ant"
+         download-size="3069"
+         install-size="3582"
+         version="1.10.8.v20200515-1239"/>
+
+   <plugin
+         id="org.eclipse.jdt.ui"
+         download-size="11212"
+         install-size="24942"
+         version="3.21.100.v20200602-0959"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.search"
+         download-size="534"
+         install-size="1054"
+         version="3.11.1000.v20200410-1852"
+         unpack="false"/>
+
+   <plugin
+         id="org.junit"
+         download-size="415"
+         install-size="819"
+         version="4.13.0.v20200204-1500"/>
+
+   <plugin
+         id="org.eclipse.update.configurator"
+         download-size="95"
+         install-size="192"
+         version="3.4.600.v20200422-1910"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.ui.forms"
+         download-size="324"
+         install-size="653"
+         version="3.9.100.v20200413-1417"
+         unpack="false"/>
+
+   <plugin
+         id="org.hamcrest.core"
+         download-size="65"
+         install-size="145"
+         version="1.3.0.v20180420-1519"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.ltk.core.refactoring"
+         download-size="335"
+         install-size="757"
+         version="3.11.0.v20200515-0330"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.ltk.ui.refactoring"
+         download-size="461"
+         install-size="953"
+         version="3.11.0.v20200515-0330"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.ui.navigator"
+         download-size="418"
+         install-size="897"
+         version="3.9.300.v20200513-0930"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.compare"
+         download-size="792"
+         install-size="1606"
+         version="3.7.1000.v20200511-1203"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.team.core"
+         download-size="394"
+         install-size="849"
+         version="3.8.1000.v20200428-1255"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.team.ui"
+         download-size="1430"
+         install-size="3053"
+         version="3.8.900.v20200422-1935"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.debug.ui"
+         download-size="3060"
+         install-size="6271"
+         version="3.14.500.v20200520-0842"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.ui.console"
+         download-size="207"
+         install-size="384"
+         version="3.9.200.v20200511-1122"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.ui.navigator.resources"
+         download-size="170"
+         install-size="355"
+         version="3.7.300.v20200417-1241"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.ui.net"
+         download-size="45"
+         install-size="84"
+         version="1.3.800.v20200422-1935"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.ui.views.properties.tabbed"
+         download-size="107"
+         install-size="224"
+         version="3.8.900.v20200513-0930"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jdt.core.manipulation"
+         download-size="1538"
+         install-size="3821"
+         version="1.14.0.v20200526-0740"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jdt.debug.ui"
+         download-size="1704"
+         install-size="3407"
+         version="3.11.0.v20200525-2012"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jdt.junit"
+         download-size="552"
+         install-size="1031"
+         version="3.11.800.v20200518-1033"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jdt.junit.runtime"
+         download-size="55"
+         install-size="102"
+         version="3.5.200.v20200501-1429"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jdt.junit.core"
+         download-size="174"
+         install-size="377"
+         version="3.10.700.v20200501-1429"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.equinox.simpleconfigurator.manipulator"
+         download-size="26"
+         install-size="49"
+         version="2.1.500.v20200211-1505"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.equinox.frameworkadmin"
+         download-size="36"
+         install-size="67"
+         version="2.1.400.v20191002-0702"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.equinox.frameworkadmin.equinox"
+         download-size="66"
+         install-size="141"
+         version="1.1.400.v20200319-1546"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.ui.browser"
+         download-size="202"
+         install-size="336"
+         version="3.6.800.v20200410-1405"
+         unpack="false"/>
+
+   <plugin
+         id="org.codehaus.groovy.eclipse.dsl"
+         download-size="396"
+         install-size="852"
+         version="3.9.0.v202009301404-e2006-RELEASE"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.e4.ui.workbench.addons.swt"
+         download-size="115"
+         install-size="248"
+         version="1.3.1000.v20200517-1848"
+         unpack="false"/>
+
+   <plugin
+         id="com.kms.katalon.execution"
+         download-size="484"
+         install-size="1005"
+         version="1.0.0.202303100818"
+         unpack="false"/>
+
+   <plugin
+         id="javax.activation"
+         download-size="62"
+         install-size="116"
+         version="1.1.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.e4.ui.workbench.swt"
+         download-size="138"
+         install-size="276"
+         version="0.14.1000.v20200514-1625"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.e4.ui.workbench.renderers.swt"
+         download-size="245"
+         install-size="558"
+         version="0.14.1200.v20200529-1321"
+         unpack="false"/>
+
+   <plugin
+         id="com.kms.katalon.custom"
+         download-size="72"
+         install-size="143"
+         version="1.0.0.202303100818"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.xmlbeans"
+         download-size="2554"
+         install-size="5629"
+         version="3.1.0"
+         unpack="false"/>
+
+   <plugin
+         id="net.lingala.zip4j"
+         download-size="128"
+         install-size="256"
+         version="1.2.5"
+         unpack="false"/>
+
+   <plugin
+         id="com.kms.katalon.core"
+         download-size="732"
+         install-size="1577"
+         version="1.0.0.202303100818"
+         unpack="false"/>
+
+   <plugin
+         id="com.kms.katalon.composer.execution"
+         download-size="529"
+         install-size="1096"
+         version="1.0.0.202303100818"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.commons.email"
+         download-size="53"
+         install-size="115"
+         version="1.5.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jetty.server"
+         download-size="715"
+         install-size="1521"
+         version="9.4.48.v20220622"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jetty.servlet"
+         download-size="142"
+         install-size="308"
+         version="9.4.48.v20220622"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jetty.util"
+         download-size="569"
+         install-size="1117"
+         version="9.4.48.v20220622"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jetty.http"
+         download-size="229"
+         install-size="458"
+         version="9.4.48.v20220622"
+         unpack="false"/>
+
+   <plugin
+         id="org.objectweb.asm"
+         download-size="119"
+         install-size="238"
+         version="9.3.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.objectweb.asm.tree"
+         download-size="51"
+         install-size="102"
+         version="9.3.0"
+         unpack="false"/>
+
+   <plugin
+         id="javax.ws.rs"
+         download-size="67"
+         install-size="136"
+         version="1.1.1.v20130318-1750"
+         unpack="false"/>
+
+   <plugin
+         id="com.google.gson"
+         download-size="253"
+         install-size="507"
+         version="2.8.2.v20180104-1110"
+         unpack="false"/>
+
+   <plugin
+         id="com.kms.katalon.core.webservice"
+         download-size="2377"
+         install-size="2852"
+         version="1.0.0.202303100818"
+         unpack="false"/>
+
+   <plugin
+         id="com.kms.katalon.composer.webservice"
+         download-size="3791"
+         install-size="5287"
+         version="1.0.0.202303100818"
+         unpack="false"/>
+
+   <plugin
+         id="com.kms.katalon.composer.webui"
+         download-size="97"
+         install-size="195"
+         version="1.0.0.202303100818"
+         unpack="false"/>
+
+   <plugin
+         id="com.kms.katalon.core.webui"
+         download-size="18498"
+         install-size="20488"
+         version="1.0.0.202303100818"
+         unpack="false"/>
+
+   <plugin
+         id="wsdl4j"
+         download-size="148"
+         install-size="271"
+         version="1.6.2"
+         unpack="false"/>
+
+   <plugin
+         id="com.kms.katalon.composer.webui.recorder"
+         download-size="170"
+         install-size="367"
+         version="1.0.0.202303100818"
+         unpack="false"/>
+
+   <plugin
+         id="com.kms.katalon.composer.webui.objectspy"
+         download-size="7111"
+         install-size="14235"
+         version="1.0.0.202303100818"
+         unpack="false"/>
+
+   <plugin
+         id="com.kms.katalon.composer.mobile.objectspy"
+         download-size="273"
+         install-size="586"
+         version="1.0.0.202303100818"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.xerces.impl"
+         download-size="1352"
+         install-size="2786"
+         version="2.11.0"
+         unpack="false"/>
+
+   <plugin
+         id="jaxen"
+         download-size="226"
+         install-size="402"
+         version="1.1.6"
+         unpack="false"/>
+
+   <plugin
+         id="org.jsoup"
+         download-size="413"
+         install-size="826"
+         version="1.14.3"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.httpcomponents.httpclient"
+         download-size="724"
+         install-size="1508"
+         version="4.5.1"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.httpcomponents.httpcore"
+         download-size="319"
+         install-size="615"
+         version="4.4.4"
+         unpack="false"/>
+
+   <plugin
+         id="org.codehaus.groovy.eclipse.compilerResolver"
+         download-size="20"
+         install-size="36"
+         version="3.9.0.v202009301404-e2006-RELEASE"
+         unpack="false"/>
+
+   <plugin
+         id="com.kms.katalon.composer.codeassist"
+         download-size="97"
+         install-size="210"
+         version="1.0.0.202303100818"
+         unpack="false"/>
+
+   <plugin
+         id="com.kms.katalon.composer.mobile"
+         download-size="134"
+         install-size="264"
+         version="1.0.0.202303100818"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jetty.io"
+         download-size="178"
+         install-size="368"
+         version="9.4.48.v20220622"
+         unpack="false"/>
+
+   <plugin
+         id="com.kms.katalon.selenium-standalone"
+         download-size="12029"
+         install-size="14328"
+         version="1.0.0.202303100818"
+         unpack="false"/>
+
+   <plugin
+         id="org.json"
+         download-size="64"
+         install-size="112"
+         version="20140107.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="com.kms.katalon.execution.mobile"
+         download-size="1673"
+         install-size="1742"
+         version="1.0.0.202303100818"
+         unpack="false"/>
+
+   <plugin
+         id="com.kms.katalon.netlightbody"
+         download-size="9566"
+         install-size="10791"
+         version="1.0.0.202303100818"
+         unpack="false"/>
+
+   <plugin
+         id="com.kms.katalon.execution.webui"
+         download-size="88"
+         install-size="170"
+         version="1.0.0.202303100818"
+         unpack="false"/>
+
+   <plugin
+         id="com.kms.katalon.composer.folder"
+         download-size="41"
+         install-size="87"
+         version="1.0.0.202303100818"
+         unpack="false"/>
+
+   <plugin
+         id="com.kms.katalon.composer.global"
+         download-size="95"
+         install-size="193"
+         version="1.0.0.202303100818"
+         unpack="false"/>
+
+   <plugin
+         id="com.kms.katalon.composer.project"
+         download-size="4493"
+         install-size="4735"
+         version="1.0.0.202303100818"
+         unpack="false"/>
+
+   <plugin
+         id="com.kms.katalon.composer.search"
+         download-size="33"
+         install-size="66"
+         version="1.0.0.202303100818"
+         unpack="false"/>
+
+   <plugin
+         id="com.kms.katalon.composer.report"
+         download-size="230"
+         install-size="471"
+         version="1.0.0.202303100818"
+         unpack="false"/>
+
+   <plugin
+         id="com.kms.katalon.composer.testdata"
+         download-size="176"
+         install-size="352"
+         version="1.0.0.202303100818"
+         unpack="false"/>
+
+   <plugin
+         id="com.kms.katalon.composer.keyword"
+         download-size="194"
+         install-size="403"
+         version="1.0.0.202303100818"
+         unpack="false"/>
+
+   <plugin
+         id="com.kms.katalon.composer.preferences"
+         download-size="13"
+         install-size="26"
+         version="1.0.0.202303100818"
+         unpack="false"/>
+
+   <plugin
+         id="com.kms.katalon.composer.testsuite"
+         download-size="311"
+         install-size="646"
+         version="1.0.0.202303100818"
+         unpack="false"/>
+
+   <plugin
+         id="com.kms.katalon.core.mobile"
+         download-size="423"
+         install-size="927"
+         version="1.0.0.202303100818"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.commons.logging"
+         download-size="71"
+         install-size="145"
+         version="1.2.0.v20180409-1502"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.httpcomponents.httpmime"
+         download-size="40"
+         install-size="80"
+         version="4.5.1"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.commons.cli"
+         download-size="37"
+         install-size="67"
+         version="1.0.0.v201105210649"
+         unpack="false"/>
+
+   <plugin
+         id="com.kms.katalon.logging"
+         download-size="11"
+         install-size="17"
+         version="1.0.0.202303100818"
+         unpack="false"/>
+
+   <plugin
+         id="net.sf.jopt-simple.jopt-simple"
+         download-size="76"
+         install-size="156"
+         version="5.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.commons.lang3"
+         download-size="487"
+         install-size="1050"
+         version="3.7.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.commons.commons-validator"
+         download-size="185"
+         install-size="394"
+         version="1.7.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.commons.commons-beanutils"
+         download-size="241"
+         install-size="503"
+         version="1.9.4"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.commons.collections"
+         download-size="574"
+         install-size="1115"
+         version="3.2.2"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.commons.digester"
+         download-size="192"
+         install-size="382"
+         version="2.1.0"
+         unpack="false"/>
+
+   <plugin
+         id="com.kms.katalon.core.appium"
+         download-size="3790"
+         install-size="4218"
+         version="1.0.0.202303100818"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.commons.dbutils"
+         download-size="76"
+         install-size="179"
+         version="1.6.0"
+         unpack="false"/>
+
+   <plugin
+         id="com.kms.katalon.composer.util"
+         download-size="41"
+         install-size="87"
+         version="1.0.0.202303100818"
+         unpack="false"/>
+
+   <plugin
+         id="com.oracle.jdbc.ojdbc7"
+         download-size="3639"
+         install-size="8689"
+         version="12.1.0.2"
+         unpack="false"/>
+
+   <plugin
+         id="org.postgresql.jdbc"
+         download-size="1020"
+         install-size="2026"
+         version="42.4.1"
+         unpack="false"/>
+
+   <plugin
+         id="com.kms.katalon.composer.testsuite.collection"
+         download-size="128"
+         install-size="268"
+         version="1.0.0.202303100818"
+         unpack="false"/>
+
+   <plugin
+         id="com.kms.katalon.composer.checkpoint"
+         download-size="144"
+         install-size="285"
+         version="1.0.0.202303100818"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.ui.intro"
+         download-size="338"
+         install-size="668"
+         version="3.5.1000.v20200525-1037"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.egit"
+         download-size="11"
+         install-size="15"
+         version="4.6.1.201703071140-r"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.egit.core"
+         download-size="477"
+         install-size="1045"
+         version="4.6.1.201703071140-r"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.egit.doc"
+         download-size="4445"
+         install-size="4871"
+         version="4.6.1.201703071140-r"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.egit.ui"
+         download-size="3043"
+         install-size="6659"
+         version="4.6.1.201703071140-r"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jgit"
+         download-size="2354"
+         install-size="4748"
+         version="4.6.1.201703071140-r"
+         unpack="false"/>
+
+   <plugin
+         id="com.jcraft.jsch"
+         download-size="297"
+         install-size="539"
+         version="0.1.55.v20190404-1902"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.ui.cheatsheets"
+         download-size="379"
+         install-size="742"
+         version="3.5.800.v20200522-1354"
+         unpack="false"/>
+
+   <plugin
+         id="javaewah"
+         download-size="179"
+         install-size="348"
+         version="1.1.6.v20160919-1400"
+         unpack="false"/>
+
+   <plugin
+         id="org.slf4j.api"
+         download-size="36"
+         install-size="64"
+         version="1.7.2.v20121108-1250"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jsch.core"
+         download-size="40"
+         install-size="75"
+         version="1.3.900.v20200422-1935"
+         unpack="false"/>
+
+   <plugin
+         id="com.kms.katalon.composer.integration.git"
+         download-size="224"
+         install-size="454"
+         version="1.0.0.202303100818"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.equinox.security.win32.x86_64"
+         os="win32"
+         arch="x86_64"
+         download-size="40"
+         install-size="74"
+         version="1.1.200.v20190812-0919"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.equinox.security.macosx"
+         os="macosx"
+         download-size="28"
+         install-size="109"
+         version="1.101.200.v20190903-0934"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.equinox.http.jetty"
+         download-size="28"
+         install-size="53"
+         version="3.7.400.v20200123-1333"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.equinox.http.servlet"
+         download-size="229"
+         install-size="522"
+         version="1.6.500.v20200511-1535"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.lucene.core"
+         download-size="3406"
+         install-size="6906"
+         version="8.4.1.v20200122-1459"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.equinox.jsp.jasper"
+         download-size="27"
+         install-size="49"
+         version="1.1.500.v20200422-1833"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.equinox.jsp.jasper.registry"
+         download-size="12"
+         install-size="18"
+         version="1.1.400.v20200422-1833"
+         unpack="false"/>
+
+   <plugin
+         id="javax.servlet.jsp"
+         download-size="108"
+         install-size="280"
+         version="2.2.0.v201112011158"
+         unpack="false"/>
+
+   <plugin
+         id="javax.el"
+         download-size="56"
+         install-size="118"
+         version="2.2.0.v201303151357"
+         unpack="false"/>
+
+   <plugin
+         id="com.kms.katalon.integration.kobiton"
+         download-size="37"
+         install-size="70"
+         version="1.0.0.202303100818"
+         unpack="false"/>
+
+   <plugin
+         id="com.kms.katalon.composer.integration.kobiton"
+         download-size="40"
+         install-size="74"
+         version="1.0.0.202303100818"
+         unpack="false"/>
+
+   <plugin
+         id="org.tukaani.xz"
+         download-size="125"
+         install-size="202"
+         version="1.8.0.v20180207-1613"
+         unpack="false"/>
+
+   <plugin
+         id="com.kms.katalon.composer.properties"
+         download-size="16"
+         install-size="26"
+         version="1.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.zeroturnaround.zt-exec"
+         download-size="37"
+         install-size="66"
+         version="1.7.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.zeroturnaround.zt-process"
+         download-size="28"
+         install-size="47"
+         version="1.3.0"
+         unpack="false"/>
+
+   <plugin
+         id="com.kms.katalon.support.testing.katserver"
+         download-size="4"
+         install-size="3"
+         version="1.0.0.202303100818"
+         unpack="false"/>
+
+   <plugin
+         id="com.kms.katalon.console"
+         download-size="22"
+         install-size="43"
+         version="1.0.0.202303100818"
+         unpack="false"/>
+
+   <plugin
+         id="com.kms.katalon.composer.resources"
+         download-size="6568"
+         install-size="7167"
+         version="1.0.0.202303100818"
+         unpack="false"/>
+
+   <plugin
+         id="javax.websocket-api"
+         download-size="35"
+         install-size="58"
+         version="1.1.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jetty.websocket.api"
+         download-size="50"
+         install-size="93"
+         version="9.4.48.v20220622"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jetty.websocket.client"
+         download-size="44"
+         install-size="105"
+         version="9.4.48.v20220622"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jetty.websocket.common"
+         download-size="209"
+         install-size="433"
+         version="9.4.48.v20220622"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jetty.websocket.javax.websocket"
+         download-size="164"
+         install-size="341"
+         version="9.4.48.v20220622"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jetty.websocket.javax.websocket.server"
+         download-size="46"
+         install-size="109"
+         version="9.4.48.v20220622"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jetty.websocket.server"
+         download-size="44"
+         install-size="103"
+         version="9.4.48.v20220622"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jetty.websocket.servlet"
+         download-size="29"
+         install-size="71"
+         version="9.4.48.v20220622"
+         unpack="false"/>
+
+   <plugin
+         id="com.fasterxml.jackson.core.jackson-core"
+         download-size="448"
+         install-size="889"
+         version="2.14.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.aries.util"
+         download-size="106"
+         install-size="202"
+         version="1.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.javalite.common"
+         download-size="67"
+         install-size="120"
+         version="1.4.12"
+         unpack="false"/>
+
+   <plugin
+         id="com.kms.katalon.composer.mobile.recorder"
+         download-size="120"
+         install-size="275"
+         version="1.0.0.202303100818"
+         unpack="false"/>
+
+   <plugin
+         id="com.google.oauth-client.google-oauth-client"
+         download-size="60"
+         install-size="142"
+         version="1.22.0"
+         unpack="false"/>
+
+   <plugin
+         id="com.google.http-client.google-http-client"
+         download-size="354"
+         install-size="684"
+         version="1.22.0"
+         unpack="false"/>
+
+   <plugin
+         id="atu.testrecorder.screen-recorder"
+         download-size="119"
+         install-size="219"
+         version="2.1.0"
+         unpack="false"/>
+
+   <plugin
+         id="com.kms.katalon.composer.integration.analytics"
+         download-size="167"
+         install-size="364"
+         version="1.0.0.202303100818"
+         unpack="false"/>
+
+   <plugin
+         id="com.kms.katalon.integration.analytics"
+         download-size="138"
+         install-size="303"
+         version="1.0.0.202303100818"
+         unpack="false"/>
+
+   <plugin
+         id="com.kms.katalon.composer.integration.testcloud"
+         download-size="57"
+         install-size="115"
+         version="1.0.0.202303100818"
+         unpack="false"/>
+
+   <plugin
+         id="com.kms.katalon.integration.testcloud"
+         download-size="54"
+         install-size="108"
+         version="1.0.0.202303100818"
+         unpack="false"/>
+
+   <plugin
+         id="com.fasterxml.jackson.core.jackson-databind"
+         download-size="1580"
+         install-size="4144"
+         version="2.14.0"
+         unpack="false"/>
+
+   <plugin
+         id="com.fasterxml.jackson.core.jackson-annotations"
+         download-size="74"
+         install-size="134"
+         version="2.14.0"
+         unpack="false"/>
+
+   <plugin
+         id="com.google.guava"
+         download-size="2553"
+         install-size="5611"
+         version="23.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.jasper.glassfish"
+         download-size="2415"
+         install-size="5629"
+         version="2.2.2.v201501141630"
+         unpack="false"/>
+
+   <plugin
+         id="org.beanshell.bsh"
+         download-size="278"
+         install-size="519"
+         version="2.0.0.0b4"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.ant.launcher"
+         download-size="18"
+         install-size="35"
+         version="1.9.6"
+         unpack="false"/>
+
+   <plugin
+         id="com.kms.katalon.composer.testlistener"
+         download-size="33"
+         install-size="63"
+         version="1.0.0.202303100818"
+         unpack="false"/>
+
+   <plugin
+         id="com.kms.katalon.util"
+         download-size="36"
+         install-size="63"
+         version="1.0.0.202303100818"
+         unpack="false"/>
+
+   <plugin
+         id="com.kms.katalon.selenium.ide"
+         download-size="38"
+         install-size="74"
+         version="1.0.0.202303100818"
+         unpack="false"/>
+
+   <plugin
+         id="com.kms.katalon.application"
+         download-size="141"
+         install-size="263"
+         version="1.0.0.202303100818"
+         unpack="false"/>
+
+   <plugin
+         id="com.kms.katalon.tracking"
+         download-size="37"
+         install-size="85"
+         version="1.0.0.202303100818"
+         unpack="false"/>
+
+   <plugin
+         id="com.kms.katalon.ansiconsole"
+         download-size="8"
+         install-size="12"
+         version="1.0.0.202303100818"
+         unpack="false"/>
+
+   <plugin
+         id="com.kms.katalon.platform.internal"
+         download-size="73"
+         install-size="168"
+         version="1.0.0.202303100818"
+         unpack="false"/>
+
+   <plugin
+         id="org.greenrobot.eventbus"
+         download-size="58"
+         install-size="107"
+         version="3.1.1"
+         unpack="false"/>
+
+   <plugin
+         id="org.assertj.core"
+         download-size="3871"
+         install-size="10358"
+         version="3.10.0"
+         unpack="false"/>
+
+   <plugin
+         id="com.kms.katalon.tracking.service"
+         download-size="13"
+         install-size="24"
+         version="1.0.0.202303100818"
+         unpack="false"/>
+
+   <plugin
+         id="cucumber.eclipse.editor"
+         download-size="151"
+         install-size="303"
+         version="0.0.23.202008130913"
+         unpack="false"/>
+
+   <plugin
+         id="cucumber.eclipse.steps.integration"
+         download-size="1816"
+         install-size="1987"
+         version="0.0.23.202008130913"
+         unpack="false"/>
+
+   <plugin
+         id="cucumber.eclipse.steps.jdt"
+         download-size="152"
+         install-size="277"
+         version="0.0.23.202008130913"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jdt"
+         download-size="42"
+         install-size="152"
+         version="3.18.400.v20200604-0540"
+         unpack="false"/>
+
+   <plugin
+         id="com.kms.katalon.composer.integration.cucumber"
+         download-size="30"
+         install-size="56"
+         version="1.0.0.202303100818"
+         unpack="false"/>
+
+   <plugin
+         id="io.cucumber.core"
+         download-size="279"
+         install-size="519"
+         version="3.0.2"
+         unpack="false"/>
+
+   <plugin
+         id="io.cucumber.datatable"
+         download-size="45"
+         install-size="91"
+         version="1.0.3"
+         unpack="false"/>
+
+   <plugin
+         id="io.cucumber.datatable-dependencies"
+         download-size="1801"
+         install-size="5176"
+         version="1.0.3"
+         unpack="false"/>
+
+   <plugin
+         id="io.cucumber.expressions"
+         download-size="45"
+         install-size="95"
+         version="5.0.19"
+         unpack="false"/>
+
+   <plugin
+         id="io.cucumber.gherkin"
+         download-size="333"
+         install-size="695"
+         version="5.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="io.cucumber.html"
+         download-size="38"
+         install-size="105"
+         version="0.2.7"
+         unpack="false"/>
+
+   <plugin
+         id="io.cucumber.java"
+         download-size="296"
+         install-size="352"
+         version="3.0.2"
+         unpack="false"/>
+
+   <plugin
+         id="io.cucumber.tag-expressions"
+         download-size="14"
+         install-size="25"
+         version="1.1.1"
+         unpack="false"/>
+
+   <plugin
+         id="io.cucumber.junit"
+         download-size="32"
+         install-size="58"
+         version="3.0.2"
+         unpack="false"/>
+
+   <plugin
+         id="com.kms.katalon.core.cucumber"
+         download-size="54"
+         install-size="105"
+         version="1.0.0.202303100818"
+         unpack="false"/>
+
+   <plugin
+         id="com.kms.katalon.execution.webservice"
+         download-size="8"
+         install-size="11"
+         version="1.0.0.202303100818"
+         unpack="false"/>
+
+   <plugin
+         id="io.swagger.annotations"
+         download-size="21"
+         install-size="28"
+         version="2.0.0.rc2"
+         unpack="false"/>
+
+   <plugin
+         id="io.swagger.core"
+         download-size="109"
+         install-size="241"
+         version="2.0.0.rc2"
+         unpack="false"/>
+
+   <plugin
+         id="io.swagger.models"
+         download-size="117"
+         install-size="269"
+         version="2.0.0.rc2"
+         unpack="false"/>
+
+   <plugin
+         id="io.swagger.parser-v2"
+         download-size="483"
+         install-size="1366"
+         version="2.0.0.rc1"
+         unpack="false"/>
+
+   <plugin
+         id="com.fasterxml.jackson.dataformat.jackson-dataformat-yaml"
+         download-size="50"
+         install-size="104"
+         version="2.13.4"
+         unpack="false"/>
+
+   <plugin
+         id="org.yaml.snakeyaml"
+         download-size="324"
+         install-size="658"
+         version="1.31.0"
+         unpack="false"/>
+
+   <plugin
+         id="javax.validation.api"
+         download-size="62"
+         install-size="93"
+         version="1.1.0.Final"
+         unpack="false"/>
+
+   <plugin
+         id="io.swagger.parser-core"
+         download-size="5"
+         install-size="6"
+         version="2.0.0.rc1"
+         unpack="false"/>
+
+   <plugin
+         id="io.swagger.parser-v2-converter"
+         download-size="21"
+         install-size="50"
+         version="2.0.0.rc1"
+         unpack="false"/>
+
+   <plugin
+         id="com.fasterxml.jackson.dataformat.jackson-dataformat-xml"
+         download-size="97"
+         install-size="217"
+         version="2.9.10"
+         unpack="false"/>
+
+   <plugin
+         id="com.fasterxml.jackson.module.jackson-module-jaxb-annotations"
+         download-size="32"
+         install-size="71"
+         version="2.9.10"
+         unpack="false"/>
+
+   <plugin
+         id="ch.qos.logback.classic"
+         download-size="283"
+         install-size="555"
+         version="1.2.3"
+         unpack="false"/>
+
+   <plugin
+         id="ch.qos.logback.core"
+         download-size="460"
+         install-size="845"
+         version="1.2.3"
+         unpack="false"/>
+
+   <plugin
+         id="slf4j.api"
+         download-size="40"
+         install-size="84"
+         version="1.7.30"
+         unpack="false"/>
+
+   <plugin
+         id="stax2-api"
+         download-size="191"
+         install-size="385"
+         version="4.2.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.fusesource.jansi"
+         download-size="277"
+         install-size="738"
+         version="1.17.1"
+         unpack="false"/>
+
+   <plugin
+         id="com.katalon.platform"
+         download-size="164"
+         install-size="300"
+         version="1.0.21"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.commons.commons-text"
+         download-size="232"
+         install-size="467"
+         version="1.10.0"
+         unpack="false"/>
+
+   <plugin
+         id="ca.juliusdavies.not-yet-commons-ssl"
+         download-size="268"
+         install-size="493"
+         version="0.3.11"
+         unpack="false"/>
+
+   <plugin
+         id="com.fasterxml.jackson.core.jackson-annotations"
+         download-size="74"
+         install-size="134"
+         version="2.14.0"
+         unpack="false"/>
+
+   <plugin
+         id="com.fasterxml.jackson.core.jackson-core"
+         download-size="448"
+         install-size="889"
+         version="2.14.0"
+         unpack="false"/>
+
+   <plugin
+         id="com.fasterxml.jackson.core.jackson-databind"
+         download-size="1580"
+         install-size="4144"
+         version="2.14.0"
+         unpack="false"/>
+
+   <plugin
+         id="com.fasterxml.jackson.dataformat.jackson-dataformat-xml"
+         download-size="97"
+         install-size="217"
+         version="2.9.10"
+         unpack="false"/>
+
+   <plugin
+         id="com.fasterxml.jackson.dataformat.jackson-dataformat-yaml"
+         download-size="50"
+         install-size="104"
+         version="2.13.4"
+         unpack="false"/>
+
+   <plugin
+         id="com.fasterxml.jackson.module.jackson-module-jaxb-annotations"
+         download-size="32"
+         install-size="71"
+         version="2.9.10"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.ui.themes"
+         download-size="52"
+         install-size="101"
+         version="1.2.1000.v20200528-1125"/>
+
+   <plugin
+         id="com.kms.katalon.core.windows"
+         download-size="182"
+         install-size="382"
+         version="1.0.0.202303100818"
+         unpack="false"/>
+
+   <plugin
+         id="com.kms.katalon.composer.windows"
+         download-size="351"
+         install-size="757"
+         version="1.0.0.202303100818"
+         unpack="false"/>
+
+   <plugin
+         id="com.kms.katalon.execution.windows"
+         download-size="7"
+         install-size="10"
+         version="1.0.0.202303100818"
+         unpack="false"/>
+
+   <plugin
+         id="com.auth0.java-jwt"
+         download-size="50"
+         install-size="96"
+         version="3.4.0"
+         unpack="false"/>
+
+   <plugin
+         id="com.kms.katalon.composer.artifact"
+         download-size="85"
+         install-size="165"
+         version="1.0.0.202303100818"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.felix.scr"
+         download-size="406"
+         install-size="938"
+         version="2.1.16.v20200110-1820"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.batik.constants"
+         download-size="20"
+         install-size="39"
+         version="1.11.0.v20190515-0436"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.batik.i18n"
+         download-size="23"
+         install-size="44"
+         version="1.11.0.v20190515-0436"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.urischeme"
+         download-size="49"
+         install-size="92"
+         version="1.1.0.v20200603-1117"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jdt.annotation"
+         download-size="25"
+         install-size="58"
+         version="2.2.600.v20200408-1511"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.e4.core.di.extensions.supplier"
+         download-size="34"
+         install-size="67"
+         version="0.15.600.v20200311-0642"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.xmlgraphics"
+         download-size="702"
+         install-size="1398"
+         version="2.3.0.v20190515-0436"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.batik.util"
+         download-size="144"
+         install-size="283"
+         version="1.11.0.v20190515-0436"
+         unpack="false"/>
+
+   <plugin
+         id="org.codehaus.groovy.eclipse.codeassist"
+         download-size="282"
+         install-size="621"
+         version="3.9.0.v202009301404-e2006-RELEASE"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.commons.commons-compress"
+         download-size="994"
+         install-size="1968"
+         version="1.21.0"
+         unpack="false"/>
+
+   <plugin
+         id="com.kms.katalon.composer.integration.qtest"
+         download-size="364"
+         install-size="777"
+         version="1.0.0.202303100818"
+         unpack="false"/>
+
+   <plugin
+         id="com.kms.katalon.integration.qtest"
+         download-size="3675"
+         install-size="8444"
+         version="1.0.0.202303100818"
+         unpack="false"/>
+
+   <plugin
+         id="org.qas.qtest.sdk-java"
+         download-size="893"
+         install-size="1906"
+         version="1.4.5"
+         unpack="false"/>
+
+   <plugin
+         id="com.kms.katalon.proxyvole"
+         download-size="2044"
+         install-size="2217"
+         version="1.0.0.202303100818"
+         unpack="false"/>
+
+   <plugin
+         id="com.katalon.katalon-studio-smart-xpath"
+         download-size="160"
+         install-size="297"
+         version="1.0.0.202303100818"
+         unpack="false"/>
+
+   <plugin
+         id="com.amazonaws.aws-java-sdk-core"
+         download-size="985"
+         install-size="2058"
+         version="1.11.716"
+         unpack="false"/>
+
+   <plugin
+         id="com.kms.katalon.bouncy-gpg"
+         download-size="5131"
+         install-size="5949"
+         version="1.0.0.202303100818"
+         unpack="false"/>
+
+   <plugin
+         id="com.microsoft.sqlserver.mssql-jdbc"
+         download-size="806"
+         install-size="1758"
+         version="6.2.2.jre8"
+         unpack="false"/>
+
+   <plugin
+         id="com.kms.katalon.core.testng"
+         download-size="15"
+         install-size="27"
+         version="1.0.0.202303100818"
+         unpack="false"/>
+
+   <plugin
+         id="io.github.kostaskougios.cloning"
+         download-size="42"
+         install-size="77"
+         version="1.10.3"
+         unpack="false"/>
+
+   <plugin
+         id="org.objenesis"
+         download-size="59"
+         install-size="107"
+         version="3.0.1"
+         unpack="false"/>
+
+   <plugin
+         id="com.kms.katalon.activation"
+         download-size="10948"
+         install-size="11861"
+         version="1.0.0.202303100818"
+         unpack="false"/>
+
+   <plugin
+         id="com.kms.katalon.composer.platform.internal"
+         download-size="50"
+         install-size="119"
+         version="1.0.0.202303100818"
+         unpack="false"/>
+
+   <plugin
+         id="io.swagger.parser"
+         download-size="5"
+         install-size="10"
+         version="2.0.0.rc1"
+         unpack="false"/>
+
+   <plugin
+         id="io.swagger.parser-v3"
+         download-size="92"
+         install-size="210"
+         version="2.0.0.rc1"
+         unpack="false"/>
+
+   <plugin
+         id="org.objectweb.asm.commons"
+         download-size="71"
+         install-size="148"
+         version="9.3.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.e4.ui.ide"
+         download-size="11"
+         install-size="15"
+         version="3.15.100.v20200323-2111"
+         unpack="false"/>
+
+   <plugin
+         id="org.sf.feeling.decompiler"
+         download-size="2151"
+         install-size="2821"
+         version="3.1.1.201811062102"
+         unpack="false"/>
+
+   <plugin
+         id="org.sf.feeling.decompiler.cfr"
+         download-size="1415"
+         install-size="1609"
+         version="3.1.1.201811062102"
+         unpack="false"/>
+
+   <plugin
+         id="org.sf.feeling.decompiler.jad"
+         download-size="792"
+         install-size="1880"
+         version="3.1.1.201811062102"
+         unpack="false"/>
+
+   <plugin
+         id="org.sf.feeling.decompiler.jd"
+         download-size="567"
+         install-size="643"
+         version="3.1.1.201811062102"
+         unpack="false"/>
+
+   <plugin
+         id="org.sf.feeling.decompiler.procyon"
+         download-size="1607"
+         install-size="1758"
+         version="3.1.1.201811062102"
+         unpack="false"/>
+
+   <plugin
+         id="org.sf.feeling.decompiler.source.attach"
+         download-size="2376"
+         install-size="3175"
+         version="3.1.1.201811062102"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.help.base"
+         download-size="424"
+         install-size="904"
+         version="4.2.1000.v20200604-0540"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.lucene.analyzers-common"
+         download-size="1715"
+         install-size="4358"
+         version="8.4.1.v20200122-1459"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.lucene.analyzers-smartcn"
+         download-size="3529"
+         install-size="6383"
+         version="8.4.1.v20200122-1459"
+         unpack="false"/>
+
+   <plugin
+         id="com.kms.katalon.composer.decompiler"
+         download-size="18"
+         install-size="28"
+         version="1.0.0.202303100818"
+         unpack="false"/>
+
+   <plugin
+         id="com.github.kklisura.cdt.java-client"
+         download-size="533"
+         install-size="1046"
+         version="2.1.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.glassfish.tyrus.container-grizzly-client"
+         download-size="49"
+         install-size="99"
+         version="1.13.1"
+         unpack="false"/>
+
+   <plugin
+         id="org.glassfish.grizzly.framework"
+         download-size="879"
+         install-size="1902"
+         version="2.3.25"
+         unpack="false"/>
+
+   <plugin
+         id="org.glassfish.grizzly.http"
+         download-size="330"
+         install-size="682"
+         version="2.3.25"
+         unpack="false"/>
+
+   <plugin
+         id="org.glassfish.grizzly.http-server"
+         download-size="280"
+         install-size="583"
+         version="2.3.25"
+         unpack="false"/>
+
+   <plugin
+         id="org.glassfish.tyrus.client"
+         download-size="69"
+         install-size="140"
+         version="1.13.1"
+         unpack="false"/>
+
+   <plugin
+         id="org.glassfish.tyrus.core"
+         download-size="374"
+         install-size="776"
+         version="1.13.1"
+         unpack="false"/>
+
+   <plugin
+         id="org.glassfish.tyrus.spi"
+         download-size="13"
+         install-size="18"
+         version="1.13.1"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jsch.ui"
+         download-size="91"
+         install-size="180"
+         version="1.3.900.v20200422-1935"
+         unpack="false"/>
+
+   <plugin
+         id="com.kms.katalon.composer.validation"
+         download-size="2932"
+         install-size="3202"
+         version="1.0.0.202303100818"
+         unpack="false"/>
+
+   <plugin
+         id="com.kms.katalon.validation"
+         download-size="2956"
+         install-size="3237"
+         version="1.0.0.202303100818"
+         unpack="false"/>
+
+   <plugin
+         id="com.kms.katalon.composer.integration.azure"
+         download-size="105"
+         install-size="223"
+         version="1.0.0.202303100818"
+         unpack="false"/>
+
+   <plugin
+         id="com.kms.katalon.integration.azure"
+         download-size="83"
+         install-size="166"
+         version="1.0.0.202303100818"
+         unpack="false"/>
+
+   <plugin
+         id="com.kms.katalon.custom.improvement"
+         download-size="62"
+         install-size="123"
+         version="1.0.0.202303100818"
+         unpack="false"/>
+
+   <plugin
+         id="javassist"
+         download-size="831"
+         install-size="1790"
+         version="3.28.0.GA"
+         unpack="false"/>
+
+   <plugin
+         id="org.hamcrest.library"
+         download-size="72"
+         install-size="173"
+         version="1.3.0.v20180524-2246"
+         unpack="false"/>
+
+   <plugin
+         id="jaxb-api"
+         download-size="99"
+         install-size="188"
+         version="2.2.11"
+         unpack="false"/>
+
+   <plugin
+         id="com.sun.mail.javax.mail"
+         download-size="643"
+         install-size="1219"
+         version="1.6.2"
+         unpack="false"/>
+
+   <plugin
+         id="org.antlr.antlr4-runtime"
+         download-size="329"
+         install-size="639"
+         version="4.8.0"
+         unpack="false"/>
+
+   <plugin
+         id="com.graphql-java"
+         download-size="2637"
+         install-size="6575"
+         version="16.2.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.dataloader.java-dataloader"
+         download-size="37"
+         install-size="87"
+         version="2.2.3"
+         unpack="false"/>
+
+   <plugin
+         id="com.networknt.json-schema-validator"
+         download-size="225"
+         install-size="483"
+         version="1.0.66"
+         unpack="false"/>
+
+   <plugin
+         id="com.equo.swt.chromium"
+         download-size="21"
+         install-size="39"
+         version="69.0.0.202106072330"
+         unpack="false"/>
+
+   <plugin
+         id="com.equo.chromium.cef.win32.win32.x86_64"
+         os="win32"
+         ws="win32"
+         arch="x86_64"
+         download-size="57570"
+         install-size="131699"
+         version="69.0.0.202106071841"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="com.equo.swt.chromium.64b"
+         os="win32"
+         ws="win32"
+         arch="x86_64"
+         download-size="59"
+         install-size="109"
+         version="69.0.0.202106072330"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="com.equo.swt.chromium.win32.win32.x86_64"
+         os="win32"
+         ws="win32"
+         arch="x86_64"
+         download-size="658"
+         install-size="1579"
+         version="69.0.0.202106072330"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jetty.client"
+         download-size="318"
+         install-size="696"
+         version="9.4.48.v20220622"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jetty.security"
+         download-size="115"
+         install-size="245"
+         version="9.4.48.v20220622"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jetty.xml"
+         download-size="66"
+         install-size="159"
+         version="9.4.48.v20220622"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jetty.util.ajax"
+         download-size="65"
+         install-size="135"
+         version="9.4.48.v20220622"
+         unpack="false"/>
+
+</feature>

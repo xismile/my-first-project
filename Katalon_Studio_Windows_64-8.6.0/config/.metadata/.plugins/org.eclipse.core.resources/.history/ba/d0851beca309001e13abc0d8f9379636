@@ -1,0 +1,12 @@
+//3. Viết code đếm từ [1 - 100] có bao nhiêu số chia hết cho 7 ?
+
+int count = 0;
+for (int i =0; i<100; i++) {
+	
+	if (i %7==0) {
+		
+		count++;
+	}
+	
+}
+println("Số chia hết cho 7 là: "+ count);

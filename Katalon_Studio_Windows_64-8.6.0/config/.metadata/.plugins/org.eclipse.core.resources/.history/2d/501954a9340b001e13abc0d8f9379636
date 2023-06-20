@@ -1,0 +1,2 @@
+//Cho test data: [Java, C#, C++, PyThon, Golang, Swift, Scartch] -> viết code: Nhập vào giá trị và trả về là vị trí(index) của giá trị vừa nhập trong test data. Nếu không tìm thấy thì thông báo "Không tìm thấy".
+//* Không phân biệt hoa thường

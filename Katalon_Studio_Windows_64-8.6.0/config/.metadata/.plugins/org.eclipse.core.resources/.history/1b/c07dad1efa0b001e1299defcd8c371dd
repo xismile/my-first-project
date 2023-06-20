@@ -1,0 +1,24 @@
+//4. Viết code khi nhập vào số N sẽ trả về  danh sách gồm N phần tử kiểu String
+//* Giá trị phần tử là tùy ý và duy nhất
+//* ví dụ: N = 4 => [ a, b, c, d]…
+
+
+//Nhập giá trị cần tìm
+Scanner sc = new Scanner(System.in) // đối tượng Scanner được khởi tạo đối vs đối số system.in cho phép đọc dữ liệu từ bàn phím
+println ("Nhập vào số nguyên N: ")
+int n = sc.nextInt() //pt nextInt() đc gọi trên đt Scanner để đọc một số nguyên từ bàn phím và gán giá trị đó cho biến n
+
+List<String> list = new ArrayList<>()
+for (int i=1; i<=n; i++) {
+	
+	println("Nhập giá trị phần tử thứ " + i+ " :")
+
+	String value= sc.next() //pt next() được gọi trên đt Scanner để đọc 1 chuỗi từ bàn phím và gán gt đó cho biến value
+	if(!list.contains(value)){ //Kiểm tra giá trị đã tồn tại trong danh sách
+		list.add(value)
+	} else{
+		println("Giá trị này đã tồn tại, vui lòng nhập lại!")
+		i--
+	}
+}
+println("Danh sách phần tử là: " + list)

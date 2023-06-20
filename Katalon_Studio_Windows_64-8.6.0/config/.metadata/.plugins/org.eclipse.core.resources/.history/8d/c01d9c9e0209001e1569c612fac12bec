@@ -1,0 +1,15 @@
+
+		
+		for (int i=1; i<=9; i++) {
+			
+			if(i%2==0) {
+				system.out.println("số chẵn (i)");
+			}
+			
+			else {
+				
+				system.out.println("số lẻ (i)");
+			}			
+			
+		}
+					

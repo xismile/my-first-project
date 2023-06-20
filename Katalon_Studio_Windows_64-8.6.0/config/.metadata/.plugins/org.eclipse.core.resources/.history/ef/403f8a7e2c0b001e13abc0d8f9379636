@@ -1,0 +1,3 @@
+//4. Viết code khi nhập vào số N sẽ trả về  danh sách gồm N phần tử kiểu String
+//* Giá trị phần tử là tùy ý và duy nhất
+//* ví dụ: N = 4 => [ a, b, c, d]…

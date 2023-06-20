@@ -1,0 +1,20 @@
+//8. Cho test data: [Java, C#, C++, PyThon, Golang, Swift, Scartch] -> viết code: Nhập vào vị trí(Index) và trả về giá trị trong test data. 
+//Nếu không tìm thấy thì thông báo "Không tìm thấy".
+
+String[] test_Data=['Java', 'C#', 'C++', 'PyThon', 'Golang', 'Swift', 'Scartch']
+
+//Nhập giá trị cần tìm từ bàn phím
+
+Scanner scanner =  new Scanner(System.in) //System.in là một đối tượng InputStream đại diện cho đầu vào tiêu chuẩn (thường là bàn phím). Việc truyền đối tượng System.in vào Scanner cho phép chúng ta đọc dữ liệu nhập vào từ bàn phím.
+println("Nhập vào vị trí (index) cần tìm kiếm")
+
+int index = scanner.nextInt() //phương thức nextInt() của lớp Scanner được sử dụng để đọc một giá trị số nguyên nhập vào từ bàn phím
+
+// Tìm giá trị tại vị trí nhập vào và hiện thị kết quả
+if(index >=0 && index < test_Data.length) {
+	
+	String value = test_Data[index]
+	println("Giá trị tại vị trí" + index +"là:" + value)
+} else {
+	println("Không tìm thấy giá trị tại vị trí" + index)
+}

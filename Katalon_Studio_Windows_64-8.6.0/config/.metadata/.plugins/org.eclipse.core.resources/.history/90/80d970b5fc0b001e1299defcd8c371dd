@@ -1,0 +1,23 @@
+///6.Viết code khi nhập vào số N sẽ trả về danh sách các số chia hết cho chính số đó
+//* ví dụ : N = 2 => [2, 4] , N = 3 => [3, 6, 9] , N = 4 => [4, 8, 12, 16],…
+
+Scanner sc = new Scanner(System.in)
+println("Nhập số nguyên N : ")
+
+int n = sc.nextInt()
+
+//Khởi tạo danh sách
+List<String> list = new ArrayList<>()
+
+for(int i=1; i<=n; i++) {
+	println("Nhập giá trị phần tử thứ " + i +" :")
+    
+	int value = sc.next()
+	if (value%n==0) { //Kiểm tra giá trị có chia hết cho N
+		list.add(value)
+	}else {
+		println("Giá trị này không chia hết cho N, vui lòng nhập lại")
+		i--
+	}
+	println("Danh sách các phần tử là: " + list)
+}

@@ -1,0 +1,6 @@
+DEBUG.consoleOpenOnErr=false
+DEBUG.consoleOpenOnOut=false
+eclipse.preferences.version=1
+org.eclipse.debug.ui.PREF_LAUNCH_PERSPECTIVES=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?>\r\n<launchPerspectives>\r\n<launchPerspective configurationType\="com.kms.katalon.composer.execution.scriptLaunchConfiguration" mode\="debug" perspective\="org.eclipse.debug.ui.DebugPerspective"/>\r\n</launchPerspectives>\r\n
+org.eclipse.debug.ui.auto_remove_old_launches=false
+preferredTargets=default\:default|
